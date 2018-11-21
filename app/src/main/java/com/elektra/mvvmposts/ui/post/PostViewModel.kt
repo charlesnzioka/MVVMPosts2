@@ -20,4 +20,5 @@ class PostViewModel: BaseViewModel() {
     fun getPostBody():MutableLiveData<String>{
         return postBody
     }
+
 }
